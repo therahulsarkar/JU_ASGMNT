@@ -1,3 +1,5 @@
+//Write a program to swap odd positioned numbers with even positioned number in a array
+
 #include <stdio.h>
 
 int main(){

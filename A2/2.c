@@ -1,3 +1,5 @@
+//Write a program to find minimum and maximum of an array
+
 #include <stdio.h>
 #include <limits.h>
 
