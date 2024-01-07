@@ -38,13 +38,13 @@ int main() {
     fclose(file);
 
     // Print the results
-    printf("%-20s%-10s%-10s%-10s%-10s%-10s%-10s\n", "Name", "Roll", "Subject1", "Subject2", "Subject3", "Subject4", "Subject5");
+    printf("%s\t\t%s %s %s %s %s %s\n", "Name", "Roll", "Subject1", "Subject2", "Subject3", "Subject4", "Subject5");
     for (i = 0; i < MAX_STUDENTS; i++) {
         printf("%-20s%-10d%-10d%-10d%-10d%-10d%-10d\n", students[i].name, students[i].roll,
                students[i].marks[0], students[i].marks[1], students[i].marks[2], students[i].marks[3], students[i].marks[4]);
     }
 
-    printf("\n%-20s%-10s%-10s\n", "Name", "Total", "Average");
+    printf("\n%s\t\t%s\t\t%s\n", "Name", "Total", "Average");
     for (i = 0; i < MAX_STUDENTS; i++) {
         printf("%-20s%-10d%-10.2f\n", students[i].name, students[i].totalMarks, students[i].averageMarks);
     }
